@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full-Stack Link-Sharing Application
 
-## Getting Started
+## Task Overview
+This project involves building a full-stack link-sharing application using Next.js and TypeScript. The goal is to implement a pixel-perfect version of the provided design, focusing on CRUD functionality, user authentication, and responsiveness.
 
-First, run the development server:
+## Deliverables
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Feature Implementation
+1. **CRUD Links**: Create, read, update, and delete links with previews.
+2. **Form Validations**: Ensure URL correctness for links and that profile details include a profile picture, first and last names, and an email.
+3. **Profile Details**: Users can add a profile picture, first name, last name, and email.
+4. **Profile Preview**: Users can preview their profile and copy the profile link to the clipboard.
+5. **Responsive Layout**: Ensure optimal layout and responsiveness across different device screen sizes.
+6. **Interactive States**: Implement hover and focus states for all interactive elements.
+7. **Access Control**: Only the logged-in owner of a link can edit it.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Full-Stack Application
+- **Database Integration**: Use a database (like Firebase or Supabase) to save details.
+- **User Authentication**: Implement user account creation and login functionalities.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technology Requirements
+- **Framework**: Next.js with TypeScript
+- **Design**: Follow the provided design system for colors, fonts, and image assets.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Steps to Complete the Task
 
-## Learn More
+### Design and Layout
+- Follow the provided Figma design closely.
+- Implement layouts for mobile, tablet, and desktop.
+- Ensure pixel-perfect implementation.
 
-To learn more about Next.js, take a look at the following resources:
+### Feature Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Links Management
+- Implement CRUD operations for links.
+- Validate URLs in the form.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Profile Management
+- Add fields for profile picture, first name, last name, and email.
+- Validate profile details in the form.
 
-## Deploy on Vercel
+#### Profile Preview
+- Allow users to preview their profile.
+- Enable link copying functionality.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Responsive Design
+- Ensure the application is responsive across different devices.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Full-Stack Integration
+
+#### Database
+- Save link and profile details using a database like Firebase or Supabase.
+
+#### User Authentication
+- Implement account creation and login functionalities.
+
+## Testing and Validation
+- Thoroughly test all features.
+- Validate form inputs and user interactions.
+- Test the application across different devices and screen sizes.
+
+## Evaluation Criteria
+
+### Completeness
+- Are all required features implemented and functional?
+- Does the application handle all necessary states and validations?
+
+### Quality
+- Is the design visually appealing and consistent with the Figma design?
+- Does the application perform well across different devices and browsers?
+
+### Functionality
+- Are CRUD operations for links and profile management working correctly?
+- Is the user authentication and database integration properly implemented?
+
+## Submission
+- Submit the link to your GitHub repository containing the source code.
+- Ensure your code follows the design specifications.
+- Provide a live demo link if possible.
+
+### Submission Link
+[Submit Here](https://forms.gle/SzL2Eqghcgbr1xmo8)
+
+### Deadline
+**24th of July, Wednesday: 11:59 PM**
+
