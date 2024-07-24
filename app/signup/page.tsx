@@ -1,10 +1,8 @@
-import React from 'react'
-import { login, signup } from './actions'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '../../components/ui/card'
-import InputBox from '../../components/InputWithIcon'
-import AuthCards from '../../components/AuthenticationCard'
+import React from "react";
+import AuthCards from "../../components/AuthenticationCard";
+import InputBox from "../../components/InputWithIcon";
 
-export default function LoginPage() {
+const SignUpPage = () => {
     return (
         <div className='w-full bg-zinc-50 '>
             <div className='max-w-[1440px] min-h-screen flex items-center justify-center mx-auto'>
@@ -15,5 +13,7 @@ export default function LoginPage() {
                 </AuthCards>
             </div>
         </div>
-    )
+    );
 }
+
+export default SignUpPage;
