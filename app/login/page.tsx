@@ -21,13 +21,13 @@ import { Button } from "@/components/ui/button"
 
 
 const loginSchema = z.object({
-    email: z.string().email(`Can't be empty`),
+    email: z.string().email({ message: `can't be empty` }),
     password: z.string().min(6, 'Please check again'),
 });
 
 export default function LoginPage() {
 
-    const form = useForm({
+    const form = useForm<z.infer<typeof loginSchema>>({
         resolver: zodResolver(loginSchema),
         defaultValues: {
             email: '',
@@ -49,7 +49,7 @@ export default function LoginPage() {
                     pagePath={'/signup'}
                 >
                     <Form {...form}>
-                        <form>
+                        <form >
                             <FormField
                                 control={form.control}
                                 name="email"
@@ -80,7 +80,7 @@ export default function LoginPage() {
                                     </FormItem>
                                 )}
                             />
-                            <Button className="bg-[#633cff] w-full py-[27px] font-semibold text-base hover:bg-[#BEADFF]">
+                            <Button className="bg-[#633cff] w-full py-[27px] font-semibold text-base hover:bg-[#BEADFF]" type='submit'>
                                 Login
                             </Button>
                         </form>

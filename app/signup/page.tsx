@@ -58,7 +58,7 @@ export default function SignUpPage() {
                                     >
                                         <FormLabel className="font-normal text-xs">Email</FormLabel>
                                         <FormControl>
-                                            <Input placeholder="Email" {...field} className="focus-visible:ring-[#BEADFF] focus:shadow-md focus:shadow-[#BEADFF] ring-offset-0" />
+                                            <Input placeholder="Email" {...field} className="focus-visible:ring-transparent focus:shadow-md focus:shadow-[#BEADFF] focus:border-2 focus:border-[#BEADFF]" />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>
@@ -73,7 +73,7 @@ export default function SignUpPage() {
                                     >
                                         <FormLabel className="font-normal text-xs">Password</FormLabel>
                                         <FormControl>
-                                            <Input placeholder="Password" {...field} type="password" className="focus-visible:ring-[#BEADFF] focus:shadow-md focus:shadow-[#BEADFF] ring-offset-0" />
+                                            <Input placeholder="Password" {...field} type="password" className="focus-visible:ring-transparent focus:shadow-md focus:shadow-[#BEADFF] focus:border-2 focus:border-[#BEADFF]" />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>
@@ -88,7 +88,7 @@ export default function SignUpPage() {
                                     >
                                         <FormLabel className="font-normal text-xs">Confirm password</FormLabel>
                                         <FormControl>
-                                            <Input placeholder="Confirm password" {...field} type="password" className="focus-visible:ring-[#BEADFF] focus:shadow-md focus:shadow-[#BEADFF] ring-offset-0" />
+                                            <Input placeholder="Confirm password" {...field} type="password" className="focus-visible:ring-transparent focus:shadow-md focus:shadow-[#BEADFF] focus:border-2 focus:border-[#BEADFF]" />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>
