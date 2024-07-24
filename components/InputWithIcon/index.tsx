@@ -3,8 +3,8 @@ import { Label } from "@/components/ui/label"
 
 const InputBox = () => {
     return (
-        <div>
-            <Label htmlFor="email">Email</Label>
+        <div className="mb-6">
+            <Label htmlFor="email" className="font-normal text-xs">Email</Label>
             <Input type="email" id="email" placeholder="Email" />
         </div>
     );
