@@ -25,7 +25,7 @@ This project involves building a full-stack link-sharing application using Next.
 ## Steps to Complete the Task
 
 ### Design and Layout
-- Follow the provided Figma design closely.
+- Follow the provided [Figma design](https://www.figma.com/design/gY3QlGMHxB81euVxIYfBSr/link-sharing-app?node-id=26-2&m=dev&t=jGBTLwo88ioEapGg-1) closely.
 - Implement layouts for mobile, tablet, and desktop.
 - Ensure pixel-perfect implementation.
 
