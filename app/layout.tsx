@@ -24,10 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="max-w-[1440px] mx-auto ">
-          <Navigationbar />
           {children}
-        </div>
       </body>
     </html>
   );
